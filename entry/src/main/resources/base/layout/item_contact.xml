@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+
+    ohos:height="41vp"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:id="$+id:dir_id"
+        ohos:width="match_parent"
+        ohos:height="40vp"
+        ohos:orientation="horizontal"
+        >
+        <Text
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:id="$+id:name"
+            ohos:text_color="#222222"
+            ohos:text_size="16fp"
+            ohos:weight="10"
+            ohos:text_alignment="center"
+            ohos:layout_alignment="center"
+            />
+        <Text
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:id="$+id:phone"
+            ohos:text_color="#555555"
+            ohos:text_size="16fp"
+            ohos:weight="10"
+            ohos:text_alignment="center"
+            ohos:layout_alignment="center"
+            />
+        <DirectionalLayout
+            ohos:width="match_parent"
+            ohos:height="40vp"
+            ohos:orientation="horizontal"
+            ohos:left_margin="20vp"
+            ohos:weight="7"
+            >
+            <Button
+                ohos:id="$+id:edit"
+                ohos:width="match_content"
+                ohos:height="match_content"
+                ohos:text="Edit"
+                ohos:text_color="#00dddd"
+                ohos:text_size="16fp"
+                ohos:padding="4vp"
+                ohos:layout_alignment="center"
+                />
+            <Button
+                ohos:id="$+id:delete"
+                ohos:width="match_content"
+                ohos:height="match_content"
+                ohos:text="Delete"
+                ohos:text_color="#cc0000"
+                ohos:text_size="16fp"
+                ohos:padding="4vp"
+                ohos:layout_alignment="center"
+                />
+        </DirectionalLayout>
+    </DirectionalLayout>
+    <Text
+        ohos:width="match_parent"
+        ohos:height="1vp"
+        ohos:background_element="#aaeeeeee"
+        ohos:left_margin="20vp"
+        ohos:right_margin="20vp"
+        />
+
+</DirectionalLayout>
